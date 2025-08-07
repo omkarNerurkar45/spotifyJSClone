@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="24" height="24">
+    <!-- Green Circular Background -->
+    <circle cx="20" cy="20" r="20" fill="#18b973" />
+  
+    <!-- Pause Icon -->
+    <path
+      d="M12 8a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1zm12 0a1 1 0 0 0-1 1v22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1z"
+      fill="black"
+    />
+  </svg>
+  

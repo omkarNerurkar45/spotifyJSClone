@@ -1,0 +1,77 @@
+@media (max-width: 1500px) {
+  .left {
+    background-color: black;
+    position: absolute;
+    left: -120%;
+    transition: all 0.5s;
+    z-index: 1;
+    width: 95vw;
+    height: 97vh;
+    padding: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .right {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .playbar {
+    width: calc(100vw - 59px);
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    right: 22px;
+    top: 27px;
+  }
+
+  .playlist {
+    padding: 11px;
+  }
+
+  .spotifyPlaylist {
+    padding: 13px;
+  }
+
+  .songList {
+    height: 315px;
+  }
+
+  .songInfo,
+  .songTime {
+    width: auto;
+  }
+
+  .cardContainer {
+    justify-content: center;
+  }
+
+  .card {
+    width: 30vw;
+  }
+
+  .seekbar {
+    width: calc(100vw - 64px);
+  }
+
+  .btnFlex {
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .timeVol {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 84vw;
+  }
+}
